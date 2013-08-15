@@ -1,5 +1,5 @@
 {
-    "name": "sirian/nodejs-bundle",
+    "name": "sirian/symfony2-nodejs-bundle",
     "type": "library",
     "description": "node.js integration",
     "keywords": [],
