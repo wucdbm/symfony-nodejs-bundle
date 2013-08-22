@@ -1,0 +1,3 @@
+services:
+    sirian_node_js.parameter_bag:
+        class: Sirian\NodeJSBundle\ParameterBag\ParameterBag
