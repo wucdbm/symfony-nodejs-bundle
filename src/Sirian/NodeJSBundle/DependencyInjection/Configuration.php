@@ -11,7 +11,10 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder();
         $root = $treeBuilder->root('sirian_node_js');
-
+        $root
+            ->useAttributeAsKey('name')
+            ->prototype('scalar')->end()
+        ;
         return $treeBuilder;
     }
 }

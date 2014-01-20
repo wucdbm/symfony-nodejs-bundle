@@ -15,6 +15,7 @@ class SirianNodeJSExtension extends Extension
         $this->loadServices($container);
 
         $config = $this->processConfiguration(new Configuration(), $configs);
+        
         $this->addParameters($container, $config);
     }
 
